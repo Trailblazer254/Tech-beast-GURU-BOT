@@ -24,7 +24,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
           title: "I AM ALIVE",
           body: "GURU BOT",
           thumbnailUrl: img,
-          sourceUrl: 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp',
+          sourceUrl: 'https://chat.whatsapp.com/ItEGFz64Cz55HW6BNjxB2W',
           mediaType: 1,
           renderLargerThumbnail: true
           }}
