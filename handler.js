@@ -219,8 +219,9 @@ export async function handler(chatUpdate) {
                 await delay(time)
             }, time)
         }
-         if (process.env.PRIVATE && !(isROwner || isOwner))
-            return
+         if (process.env.MODE && process.env.MODE.toLowerCase() === 'private' && !(isROwner || isOwner))
+          return;
+
         
         if (m.isBaileys)
             return
@@ -503,8 +504,10 @@ export async function handler(chatUpdate) {
         } catch (e) {
             console.log(m, m.quoted, e)
         }
-        if (opts["autoread"])
-            await this.chatRead(m.key).catch(() => {})
+        if (process.env.autoRead)
+            await conn.readMessages([m.key])
+        if (process.env.statusview && m.key.remoteJid === 'status@broadcast') 
+            await conn.readMessages([m.key])
     }
 }
 
