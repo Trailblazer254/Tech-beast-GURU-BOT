@@ -15,6 +15,7 @@ services:
       MODE: ${MODE}
       REMOVEBG_KEY: ${REMOVEBG_KEY}
       PREFIX: ${PREFIX}
+      statusview: ${statusview}
   redis:
     image: redis
 volumes:
