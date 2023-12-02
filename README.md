@@ -12,7 +12,7 @@
 <a href="https://github.com/DannyAkintunde/GURU-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Guru322/GURU-BOT?&style=social"></a>
 <a href="https://github.com/DannyAkintunde/GURU-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Guru322/GURU-BOT?style=social"></a>
 <a href="https://github.com/DannyAkintunde/GURU-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Guru322/GURU-BOT?label=Watching&style=social"></a>
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FGuru322%2FGURU-BOT?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FGuru322%2FGURU-BOT.svg?type=shield"/></a>
+<!--<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FGuru322%2FGURU-BOT?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FGuru322%2FGURU-BOT.svg?type=shield"/></a>-->
 </p>
 
 ####
@@ -79,7 +79,7 @@ KOGI-BOT- Simple Multi Device whatsapp bot.
 
 SUPPORT GROUP: <a href="https://chat.whatsapp.com/ItEGFz64Cz55HW6BNjxB2W"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
 
-- Star ⭐ the repo if you like GURU-BOT.
+- Star ⭐ the repo if you like KOGI-BOT.
 
 ## `Main Dev`
 
@@ -94,6 +94,7 @@ SUPPORT GROUP: <a href="https://chat.whatsapp.com/ItEGFz64Cz55HW6BNjxB2W"><img a
 - This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
 - I am not responsible for banning your account.
 - Use at your own risk by keeping this warning in mind.
+-It is adviced to use a whatsapp business account for your bot.
 
 <h2 align="center">  NOTICE
 </h2>
