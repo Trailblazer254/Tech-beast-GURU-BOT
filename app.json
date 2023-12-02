@@ -1,10 +1,8 @@
 {
   "name": "whatsapp-bot (GURU-BOT)",
   "description": " Whatsapp bot.",
-  "keywords": [
-    "whatsapp bot"
-  ],
-  "repository": "https://github.com/Guru322/GURU-BOT",
+  "keywords": ["whatsapp bot"],
+  "repository": "https://github.com/DannyAkintunde/GURU-BOT/tree/main",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
@@ -27,12 +25,12 @@
       "required": false,
       "value": ""
     },
-     "HKEY": {
+    "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
       "value": ""
     },
-     "HAPP": {
+    "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
       "required": true,
       "value": ""
@@ -47,13 +45,13 @@
       "required": false,
       "value": ""
     },
-     "REMOVEBG_KEY": {
+    "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
       "required": false,
       "value": ""
     }
-    },
-    "buildpacks": [
+  },
+  "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
@@ -68,4 +66,3 @@
     }
   ]
 }
-
