@@ -12,7 +12,7 @@ let handler = async (m, { conn, text }) => {
 
     if (results.length === 0) {
       throw "No results found for the given query.";
-    }
+    };
     const firstResult = results[0];
     const number_of_res = 15;
     var results_indexes = [];
@@ -21,22 +21,22 @@ let handler = async (m, { conn, text }) => {
     for (i in results) {
       if (current_num > number_of_res) {
         break;
-      } else {
+      }; else {
         results_indexes.push(current_num);
         current_num = current_num + 1;
-      }
-    }
+      };
+    };
 
     for (i in results_indexes) {
       var res = results[i];
-      message += `
+      message = `
 乂 ${res.title}
 乂 *Link* : ${res.url}
 乂 *Duration* : ${res.timestamp}
 乂 *Published :* ${res.ago}
 乂 *Views:* ${res.views}
     `;
-    }
+    };
 
     /* const message = `
 乂 ${firstResult.title}
