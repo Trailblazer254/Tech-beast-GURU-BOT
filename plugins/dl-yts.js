@@ -14,37 +14,14 @@ let handler = async (m, { conn, text }) => {
       throw "No results found for the given query.";
     }
     const firstResult = results[0];
-    const number_of_res = 15;
-    var results_indexes = [];
-    var current_num = 0;
-    var message = ``;
-    for (i in results) {
-      if (current_num > number_of_res) {
-        break;
-      } else {
-        results_indexes.push(current_num);
-        current_num = current_num + 1;
-      }
-    }
 
-    for (i in results_indexes) {
-      var res = results[i];
-      message += `
-乂 ${res.title}
-乂 *Link* : ${res.url}
-乂 *Duration* : ${res.timestamp}
-乂 *Published :* ${res.ago}
-乂 *Views:* ${res.views}
-    `;
-    }
-
-    /* const message = `
+    const message = `
 乂 ${firstResult.title}
 乂 *Link* : ${firstResult.url}
 乂 *Duration* : ${firstResult.timestamp}
 乂 *Published :* ${firstResult.ago}
 乂 *Views:* ${firstResult.views}
-    `;*/
+    `;
 
     conn.sendFile(m.chat, firstResult.thumbnail, "yts.jpeg", message, m);
   } catch (error) {
