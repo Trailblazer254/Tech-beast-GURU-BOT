@@ -5,9 +5,9 @@ import fs from "fs";
 import fetch from "node-fetch";
 import axios from "axios";
 
-global.owner = [["2348098309204", "Danny", true], [""]]; //Number of owners
+global.owner = [["254750678057", "blaze", true], [""]]; //Number of owners
 
-global.pairingNumber = "2348098309204"; //put your bot number here
+global.pairingNumber = "254750678057"; //put your bot number here
 
 global.mods = ["2348098309204", "32460248586"];
 global.prems = ["2348098309204", "32460248586", "919398758484"];
@@ -55,10 +55,10 @@ global.APIKeys = {
 };
 
 // Sticker WM
-global.botname = "ᴛʜᴇ kogi-ʙᴏᴛ";
-global.premium = "true";
+global.botname = "blaze ínferñó";
+global.premium = "false";
 global.packname = "KOGI┃ᴮᴼᵀ";
-global.author = "@Danny";
+global.author = "@blaze";
 global.menuvid = "https://telegra.ph/file/085c4b1068f0f4f8db970.mp4";
 global.igfg = "";
 global.dygp = "https://chat.whatsapp.com/BibVE6tUICp3qOm2a1Ur8f";
